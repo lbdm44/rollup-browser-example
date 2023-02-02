@@ -1,12 +1,9 @@
 {
   "name": "rollup-browser-example",
-  "module": "dist/index.js",
-  "scripts": {
-    "build": "rollup -c"
-  },
-  "devDependencies": {
-    "rollup": "^3.12.1"
-  },
+  "browser": "dist/index.js",
+  "workspaces": [
+    "packages/*"
+  ],
   "volta": {
     "node": "16.19.0",
     "yarn": "3.4.1"

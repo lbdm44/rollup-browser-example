@@ -1,5 +1,5 @@
 import { bar } from "./foo/index.js";
 
-export default function () {
+export function hello() {
   console.log(bar);
 }
